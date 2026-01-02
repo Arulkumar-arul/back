@@ -11,7 +11,7 @@ const app = express();
 // use middleware
 app.use(express.json());
 app.use(cors({
-    origin:"https://foodmainproject.netlify.app/",
+    origin:"https://foodmainproject.netlify.app",
     methods:["GET","POST", "PUT", "DELETE"],
     credentials: true
 }));
